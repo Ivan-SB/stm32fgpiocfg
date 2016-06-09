@@ -63,4 +63,3 @@ if __name__ == "__main__":
 
     cmd = [obj, os.path.abspath(os.path.join(project, "Inc")), os.path.abspath(os.path.join(project, "Src"))]
     p = subprocess.run(cmd)
-    
